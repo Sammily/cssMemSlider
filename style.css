@@ -1,5 +1,14 @@
 * {
-    margin: 0 1px;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .container {
@@ -7,8 +16,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 0.2rem;
 }
 
 .slides {
@@ -16,8 +26,8 @@
 }
 
 .slide {
-    max-width: 650px;
-    min-height: 650px;
+    max-width: 65.0rem;
+    min-height: 65.0rem;
     background-color: #C6C5B9;
     opacity: 0;
     display: flex;
@@ -27,14 +37,14 @@
 
 .wrap {
     display: grid;
-    min-width: 650px;
+    min-width: 65.0rem;
     flex-direction: column;
 }
 
 .descriptions {
     display: grid;
-    margin-top: 20px;
-    font-size: 30px;
+    margin-top: 2.0rem;
+    font-size: 3.0rem;
 }
 
 .description {
@@ -112,16 +122,16 @@ img {
     display: flex;
     grid-area: 1 / 2;
     justify-content: flex-end;
-    margin-top: 6px;
+    margin-top: 0.6rem;
 }
 
 .labels label {
-    min-width: 25px;
-    min-height: 25px;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
     background-color: #C6C5B9;
     border-radius: 50%;
-    border: 14px solid rgb(255, 255, 255);
-    margin: 5px;
+    border: 1.4rem solid rgb(255, 255, 255);
+    margin: 0.5rem;
 }
 
 label:hover {
@@ -140,7 +150,7 @@ input {
     }
 
     .wrap {
-        min-width: 300px;
+        min-width: 30.0rem;
     }
 
     #slide1 {
